@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco</title>
+    <link rel="stylesheet" href="faleestilo.css">
+</head>
+<body>
+    <header>
+        <img src="imagens/falefoto.png" alt="fale foto">
+        <hr>
+        <h1>Fale Conosco</h1>
+        <p>Para enviar sua solicitação, dúvida, sugestão ou elogios, por favor, preencha os campos abaixo:</p>
+        <hr>
+    </header>
+    <main>
+        
+            <form action="teste.php">
+                <label for="inome">Nome: <span>*</span></label>
+                <input type="text" name="Nome" id="iname" placeholder="Primeiro Nome" required>
+                <input type="text" name="sobrenome" id="isobrenome" required placeholder="Sobrenome"><br>
+                <label for="iemail">Email: <span>*</span></label>
+                <input type="email" name="email" id="iemail" required><br>
+                <label for="icelular">Celular:</label>
+                <input type="tel" name="Celular" id="icelular"><br>
+                <label for="iassunto">Assunto:</label>
+                <select name="Assunto" id="iassunto">
+                    <option value="iag">Agendamento de horários</option>
+                    <option value="icancel">Alteração ou cancelamento de horário</option>
+                    <option value="iduv">Dúvidas sobre agendamento online</option>
+                    <option value="iesp">Lista de espera</option>
+                </select><br>
+                <label for="imens">Mensagem:</label>
+                <textarea name="mens" id="imens"></textarea><br><br><br>
+                <input id="botao" type="submit" value="Enviar">
+            </form>
+        
+    </main>
+</body>
+</html>
