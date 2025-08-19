@@ -13,12 +13,18 @@ header{
     margin-left: 20px;
     margin-right: 20px;
 }
+div{
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.39);
+}
 h1, p{
     margin: 10px;
 }
 input, label{
     margin-bottom: 50px;
     margin-left: 10px;
+   
 }
 textarea{
     margin-top: 50px;
@@ -49,6 +55,9 @@ main{
 input{
     width: 150px;
     margin-left: 5px;
+     border-radius: 3px;
+    border: 1px solid black;
+    padding: 3px;
 }
 select{
     padding: 5px 8px;
@@ -60,6 +69,9 @@ img{
     display: block;
     margin: auto;
     width: 150px;
+}
+p{
+    text-align: justify;
 }
 @media screen and (min-width:700px) {
     
